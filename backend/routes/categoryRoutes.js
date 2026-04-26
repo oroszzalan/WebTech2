@@ -15,3 +15,6 @@ router.put('/:id', protect, updateCategory);
 router.delete('/:id', protect, deleteCategory);
 
 export default router;
+
+
+//kategóriák listázás létrehozás törlés

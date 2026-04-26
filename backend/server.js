@@ -32,3 +32,5 @@ const port = process.env.PORT || 5000;
 app.listen(port, () => {
   console.log(`A szerver elindult: http://localhost:${port}`);
 });
+
+// server initializeed and running on specified port, ready to handle API requests.

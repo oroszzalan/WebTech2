@@ -17,3 +17,5 @@ export function protect(req, res, next) {
     return res.status(401).json({ message: 'Érvénytelen token.' });
   }
 }
+
+// token ellenőrzés

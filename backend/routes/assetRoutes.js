@@ -17,3 +17,5 @@ router.put('/:id', protect, updateAsset);
 router.delete('/:id', protect, deleteAsset);
 
 export default router;
+
+//eszközök listázás létrehozás törlés
