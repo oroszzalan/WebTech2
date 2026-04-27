@@ -57,6 +57,3 @@ seed().catch((error) => {
   console.error(error);
   process.exit(1);
 });
-
-
-// kezdő adatok létrehozása a MongoDB adatbázisban
